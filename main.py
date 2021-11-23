@@ -21,7 +21,7 @@ def setup():
 
 def run():
     core.cleanScreen()
-
+# VUE DE FACE EN 2D
     for i in core.memory("TabDePlanete"):
         i.mouvement(core.memory("Soleil").masse, core.memory("Soleil").position)
     core.memory("Soleil").draw(core.screen)
