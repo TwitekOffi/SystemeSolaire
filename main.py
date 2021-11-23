@@ -26,7 +26,7 @@ def run():
         i.mouvement(core.memory("Soleil").masse, core.memory("Soleil").position)
     core.memory("Soleil").draw(core.screen)
     for i in core.memory("TabDePlanete"):
-        i.draw(core.screen)
+        i.draw(core.screen, core.memory("Soleil").position)
 
 
 core.main(setup, run)

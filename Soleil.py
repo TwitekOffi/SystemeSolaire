@@ -11,7 +11,7 @@ class Soleil:
         self.rayon = 15
         self.position = Vector2(250, 250)
         self.direction = Vector2(0, 0)
-        self.masse = 20
+        self.masse = 10
         self.Gravite = 10
 
     def draw(self, screen):
